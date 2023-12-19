@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
     }
     float horizontal;
     float vertical;
-    Vector3 moveDir;
+   [SerializeField] Vector3 moveDir;
     void HandleMovement()
     {
         if (Input.GetKey(KeyCode.LeftShift))
